@@ -1,4 +1,4 @@
-organization in ThisBuild := "com.knoldus"
+organization in ThisBuild := "com.knoldus.cc"
 version in ThisBuild := "1.0-SNAPSHOT"
 
 // the Scala version that will be used for cross-compiled libraries
@@ -7,17 +7,16 @@ scalaVersion in ThisBuild := "2.11.8"
 val macwire = "com.softwaremill.macwire" %% "macros" % "2.2.5" % "provided"
 val scalaTest = "org.scalatest" %% "scalatest" % "3.0.1" % Test
 
-lazy val `cc-knolspecialist` = (project in file("."))
-  .aggregate(`cc-knolspecialist-api`, `cc-knolspecialist-impl`, `cc-knolspecialist-stream-api`, `cc-knolspecialist-stream-impl`)
+lazy val `knol-specialist` = (project in file("."))
+  .aggregate(`cc-ingestion-api`, `cc-ingestion-impl`)
 
-lazy val `cc-knolspecialist-api` = (project in file("cc-knolspecialist-api"))
+lazy val `cc-ingestion-api` = (project in file("cc-ingestion-api"))
   .settings(
     libraryDependencies ++= Seq(
       lagomScaladslApi
     )
   )
-
-lazy val `cc-knolspecialist-impl` = (project in file("cc-knolspecialist-impl"))
+lazy val `cc-ingestion-impl` = (project in file("cc-ingestion-impl"))
   .enablePlugins(LagomScala)
   .settings(
     libraryDependencies ++= Seq(
@@ -29,22 +28,4 @@ lazy val `cc-knolspecialist-impl` = (project in file("cc-knolspecialist-impl"))
     )
   )
   .settings(lagomForkedTestSettings: _*)
-  .dependsOn(`cc-knolspecialist-api`)
-
-lazy val `cc-knolspecialist-stream-api` = (project in file("cc-knolspecialist-stream-api"))
-  .settings(
-    libraryDependencies ++= Seq(
-      lagomScaladslApi
-    )
-  )
-
-lazy val `cc-knolspecialist-stream-impl` = (project in file("cc-knolspecialist-stream-impl"))
-  .enablePlugins(LagomScala)
-  .settings(
-    libraryDependencies ++= Seq(
-      lagomScaladslTestKit,
-      macwire,
-      scalaTest
-    )
-  )
-  .dependsOn(`cc-knolspecialist-stream-api`, `cc-knolspecialist-api`)
+  .dependsOn(`cc-ingestion-api`)

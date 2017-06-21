@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="SBT 1" modules="knol-specialist-api,knol-specialist-impl,knol-specialist-stream-api,knol-specialist-stream-impl,knol-specialist,cc-ingestion-api,cc-ingestion-impl" />
+    <profile name="SBT 1" modules="knol-specialist-api,knol-specialist-impl,knol-specialist-stream-api,knol-specialist-stream-impl,knol-specialist,cc-ingestion-api,cc-ingestion-impl,ks-api,ks-impl" />
   </component>
 </project>

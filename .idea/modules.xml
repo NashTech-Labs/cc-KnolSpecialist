@@ -8,6 +8,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cc-ingestion-impl-build.iml" filepath="$PROJECT_DIR$/.idea/modules/cc-ingestion-impl-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/knol-specialist.iml" filepath="$PROJECT_DIR$/.idea/modules/knol-specialist.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/knol-specialist-build.iml" filepath="$PROJECT_DIR$/.idea/modules/knol-specialist-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ks-api.iml" filepath="$PROJECT_DIR$/.idea/modules/ks-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ks-api-build.iml" filepath="$PROJECT_DIR$/.idea/modules/ks-api-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ks-impl.iml" filepath="$PROJECT_DIR$/.idea/modules/ks-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ks-impl-build.iml" filepath="$PROJECT_DIR$/.idea/modules/ks-impl-build.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,183 @@
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.panel p{
+    margin: 20px 0px 10px 0px;
+    line-height:20px;
+}
+.all-services-text{
+    font-size:22px;
+}
+.panel-primary {
+    border-color: #337ab7;
+}
+.panel-green {
+    border-color: #5cb85c;
+}
+.panel-yellow {
+    border-color: #f0ad4e;
+}
+.panel-red {
+    border-color: #d9534f;
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+.panel-green > .panel-heading {
+    border-color: #5cb85c;
+    color: white;
+    background-color: #5cb85c;
+}
+.panel-yellow > .panel-heading {
+    border-color: #f0ad4e;
+    color: white;
+    background-color: #f0ad4e;
+}
+.panel-red > .panel-heading {
+    border-color: #d9534f;
+    color: white;
+    background-color: #d9534f;
+}
+.panel-footer {
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.huge {
+    font-size: 40px;
+}
+.panel-footer {
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.panel-green > a:hover {
+    color: #3d8b3d;
+}
+.panel-green > a {
+    color: #5cb85c;
+}
+.panel-yellow > a:hover {
+    color: #df8a13;
+}
+.panel-yellow > a {
+    color: #f0ad4e;
+}
+.panel-red > a:hover {
+    color: #b52b27;
+}
+.panel-red > a {
+    color: #d9534f;
+}
+.services-heading{
+    color:#1bac91;
+    margin: 0px auto 50px;
+}
+/*
+#about .md-container{
+    width: 1050px;
+}*/
+
+/*==list style for frameworks==*/
+#client{
+    margin-left: 0px;
+    margin-right: 0px;
+    width:100%;
+}
+#client .headings, .our-work .headings {
+    text-align: center;
+    font-weight: bold;
+    color: #3a3a3a !important;
+    font-size: 36px !important;
+    font-family: 'open_sansregular' !important;
+    line-height: 40px !important;
+    background: url(../images/clients/separator.png) no-repeat bottom center !important;
+    padding-bottom: 30px !important;
+    margin-bottom: 35px !important;
+    margin-top: 0 !important;
+}
+#client .client-logo {
+    text-align: center;
+    height: 150px;
+    width: 20%;
+    display: inline-block;
+    line-height: 150px;
+    margin-bottom: 30px;
+}
+
+li.client-logo img {
+    max-height: 150px;
+}
+
+
+#client ul {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+#client ul li {
+    display: block;
+    float: left;
+    height: 100px;
+    line-height: 110px;
+    width: 24%;
+    height:100%;
+}
+@media only screen and (max-width: 649px){
+    #client .client-logo {
+        text-align: center;
+        height: 100px;
+        width: 50%;
+        display: inline-block;
+        line-height: 100px;
+        margin-bottom: 40px;
+    }
+    li.client-logo img {
+        max-height: 100px;
+    }
+
+    #client ul li {
+        display: block;
+        float: left;
+        height: 100px;
+        line-height: 110px;
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 650px) and (max-width: 900px){
+    #client .client-logo {
+        text-align: center;
+        height: 150px;
+        width: 25%;
+        display: inline-block;
+        line-height: 150px;
+        margin-bottom: 40px;
+    }
+    #client ul li {
+        display: block;
+        float: left;
+        height: 100px;
+        line-height: 110px;
+        width: 25%;
+    }
+}
+.panel-primary a{
+
+}

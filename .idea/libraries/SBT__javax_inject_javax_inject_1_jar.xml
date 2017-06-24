@@ -2,6 +2,7 @@
   <library name="SBT: javax.inject:javax.inject:1:jar">
     <CLASSES>
       <root url="jar://$USER_HOME$/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar!/" />
+      <root url="jar:///opt/activator/repository/javax.inject/javax.inject/1/jars/javax.inject.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

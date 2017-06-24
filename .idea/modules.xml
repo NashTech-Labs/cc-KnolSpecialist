@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/analytics-api.iml" filepath="$PROJECT_DIR$/.idea/modules/analytics-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/analytics-api-build.iml" filepath="$PROJECT_DIR$/.idea/modules/analytics-api-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/analytics-impl.iml" filepath="$PROJECT_DIR$/.idea/modules/analytics-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/analytics-impl-build.iml" filepath="$PROJECT_DIR$/.idea/modules/analytics-impl-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cc-ingestion-api.iml" filepath="$PROJECT_DIR$/.idea/modules/cc-ingestion-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cc-ingestion-api-build.iml" filepath="$PROJECT_DIR$/.idea/modules/cc-ingestion-api-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cc-ingestion-impl.iml" filepath="$PROJECT_DIR$/.idea/modules/cc-ingestion-impl.iml" />

@@ -13,10 +13,7 @@ export class HomeComponent implements AfterViewInit{
     {id: 3, imgUrl: 'https://angular.io/assets/images/logos/angular/angular.png', title: 'Angular'},
     {id: 4, imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRuLMuNbMmZjvu39H_8O-CgZmTDdO-0kYyFeSXizJR2jcR7BMP3AuLYURc', title: 'spark'},
     {id: 5, imgUrl: 'https://www.seeklogo.net/wp-content/uploads/2011/06/java-logo-vector.png', title: 'Scala'},
-    {id: 6, imgUrl: 'https://d3an9kf42ylj3p.cloudfront.net/uploads/2015/06/spark-logo.png?x23053', title: 'spark'},
-    {id: 7, imgUrl: 'https://www.scala-lang.org/resources/img/smooth-spiral.png', title: 'Scala'},
-    {id: 8, imgUrl: 'https://d3an9kf42ylj3p.cloudfront.net/uploads/2015/06/spark-logo.png?x23053', title: 'spark'},
-    {id: 9, imgUrl: 'https://www.scala-lang.org/resources/img/smooth-spiral.png', title: 'Scala'}
+    
   ];
   ngAfterViewInit() {
     console.log("ng after");

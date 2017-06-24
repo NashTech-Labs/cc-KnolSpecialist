@@ -50,11 +50,15 @@ lazy val `ks-impl` = (project in file("ks-impl"))
       lagomScaladslKafkaBroker,
       lagomScaladslTestKit,
       macwire,
-      scalaTest
+      scalaTest,
+      lagomScaladslPersistenceJdbc,
+      "postgresql" % "postgresql" % "9.1-901-1.jdbc4",
+      "com.github.dnvriend" %% "akka-persistence-jdbc" % "2.5.2.0"
     )
   )
   .settings(lagomForkedTestSettings: _*)
   .dependsOn(`ks-api`)
+
 lazy val `analytics-impl` = (project in file("analytics-impl"))
   .enablePlugins(LagomScala)
   .settings(
@@ -68,3 +72,11 @@ lazy val `analytics-impl` = (project in file("analytics-impl"))
   )
   .settings(lagomForkedTestSettings: _*)
   .dependsOn(`analytics-api`)
+
+//wartRemover
+ addCompilerPlugin("org.brianmckenna" %% "wartremover" % "0.10")
+ wartremoverWarnings ++= Warts.allBut(Wart.NoNeedForMonad)
+ scalacOptions ++= Seq("-deprecation", "-Xlint")
+
+//slick integration
+libraryDependencies += lagomJavadslPersistenceJdbc

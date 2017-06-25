@@ -52,6 +52,8 @@ lazy val `ks-impl` = (project in file("ks-impl"))
       macwire,
       scalaTest,
       lagomScaladslPersistenceJdbc,
+      "com.typesafe.slick" %% "slick" % "3.2.0",
+      "com.typesafe.slick" %% "slick-hikaricp" % "3.2.0",
       "org.postgresql" % "postgresql" % "9.4.1208.jre7",
       "com.github.dnvriend" %% "akka-persistence-jdbc" % "2.5.2.0"
     )

@@ -6,9 +6,6 @@ import com.lightbend.lagom.scaladsl.persistence.jdbc.JdbcSession.tryWith
 
 import scala.collection.mutable.ListBuffer
 
-/**
-  * Created by knoldus on 21/6/17.
-  */
 class KnolSpecialistImpl(jdbcSession: JdbcSession) extends KnolSpecialistService{
 
   @Override

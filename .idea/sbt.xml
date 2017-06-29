@@ -8,10 +8,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/cc-ingestion-api" />
-            <option value="$PROJECT_DIR$/cc-ingestion-api/project" />
-            <option value="$PROJECT_DIR$/cc-ingestion-impl" />
-            <option value="$PROJECT_DIR$/cc-ingestion-impl/project" />
             <option value="$PROJECT_DIR$/ks-api" />
             <option value="$PROJECT_DIR$/ks-api/project" />
             <option value="$PROJECT_DIR$/ks-impl" />
@@ -25,10 +21,6 @@
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/cc-ingestion-api" />
-            <option value="$PROJECT_DIR$/cc-ingestion-api/project" />
-            <option value="$PROJECT_DIR$/cc-ingestion-impl" />
-            <option value="$PROJECT_DIR$/cc-ingestion-impl/project" />
             <option value="$PROJECT_DIR$/ks-api" />
             <option value="$PROJECT_DIR$/ks-api/project" />
             <option value="$PROJECT_DIR$/ks-impl" />

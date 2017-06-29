@@ -1,4 +1,6 @@
 package com.knoldus.cc.ks.impl
+
+import akka.NotUsed
 import com.knoldus.cc.ks.api.KnolSpecialistService
 import com.lightbend.lagom.scaladsl.api.ServiceCall
 
@@ -7,5 +9,5 @@ import com.lightbend.lagom.scaladsl.api.ServiceCall
   */
 class KnolSpecialistImpl extends KnolSpecialistService{
   @Override
-  def getTechnique():ServiceCall[String,String] = ???
+  def getTechnique():ServiceCall[NotUsed,String] = ???
 }

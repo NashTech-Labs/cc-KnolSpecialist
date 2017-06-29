@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cc-ingestion-api.iml" filepath="$PROJECT_DIR$/.idea/modules/cc-ingestion-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cc-ingestion-api-build.iml" filepath="$PROJECT_DIR$/.idea/modules/cc-ingestion-api-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cc-ingestion-impl.iml" filepath="$PROJECT_DIR$/.idea/modules/cc-ingestion-impl.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cc-ingestion-impl-build.iml" filepath="$PROJECT_DIR$/.idea/modules/cc-ingestion-impl-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/knol-specialist.iml" filepath="$PROJECT_DIR$/.idea/modules/knol-specialist.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/knol-specialist-build.iml" filepath="$PROJECT_DIR$/.idea/modules/knol-specialist-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ks-api.iml" filepath="$PROJECT_DIR$/.idea/modules/ks-api.iml" />

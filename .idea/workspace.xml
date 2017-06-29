@@ -2,30 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2821928e-08bb-450a-8dc8-f0a29dc7afdc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/ks-api-build.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/ks-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/ks-impl-build.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/ks-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cc-ingestion-impl/src/main/scala/com/knoldus/cc/ingestion/impl/IngestionLoader.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolSpecialistLoader.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/analytics-api-build.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/analytics-impl-build.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ks-impl/src/main/resources/application.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolspecialistEntity.scala" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_lightbend_lagom_lagom_kafka_broker_2_11_1_3_4_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_lightbend_lagom_lagom_kafka_client_2_11_1_3_4_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_lightbend_lagom_lagom_scaladsl_kafka_broker_2_11_1_3_4_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_lightbend_lagom_lagom_scaladsl_kafka_client_2_11_1_3_4_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_akka_akka_stream_kafka_2_11_0_13_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_kafka_kafka_clients_0_10_0_1_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/analytics-api/src/main/scala/com/knoldus/cc/analytics/api/AnalyticsService.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/analytics-impl/src/main/scala/com/knoldus/cc/analytics/impl/AnalyticsImpl.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/analytics-impl/src/main/scala/com/knoldus/cc/analytics/impl/AnalyticsLoader.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cc-ingestion-api/src/main/scala/com/knoldus/cc/ingestion/api/IngestionService.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cc-ingestion-impl/src/main/scala/com/knoldus/cc/ingestion/impl/IngestionLoader.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cc-ingestion-impl/src/main/scala/com/knoldus/cc/ingestion/impl/IngestionServiceImpl.scala" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__ch_qos_logback_logback_classic_1_1_3_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__ch_qos_logback_logback_classic_1_1_3_jar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__ch_qos_logback_logback_core_1_1_3_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__ch_qos_logback_logback_core_1_1_3_jar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/cc-ingestion-api-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/cc-ingestion-api-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/cc-ingestion-api.iml" afterPath="$PROJECT_DIR$/.idea/modules/cc-ingestion-api.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/cc-ingestion-impl-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/cc-ingestion-impl-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/cc-ingestion-impl.iml" afterPath="$PROJECT_DIR$/.idea/modules/cc-ingestion-impl.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/knol-specialist-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/knol-specialist-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/knol-specialist.iml" afterPath="$PROJECT_DIR$/.idea/modules/knol-specialist.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/ks-api-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/ks-api-build.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/ks-impl-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/ks-impl-build.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/ks-impl.iml" afterPath="$PROJECT_DIR$/.idea/modules/ks-impl.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sbt.xml" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ks-api/src/main/scala/com/knoldus/cc/ks/api/KnolSpecialistService.scala" afterPath="$PROJECT_DIR$/ks-api/src/main/scala/com/knoldus/cc/ks/api/KnolSpecialistService.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolSpecialistImpl.scala" afterPath="$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolSpecialistImpl.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolSpecialistLoader.scala" afterPath="$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolSpecialistLoader.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/knol-specialist-api/target/" />
@@ -54,6 +63,12 @@
     <ignored path="$PROJECT_DIR$/ks-api/project/target/" />
     <ignored path="$PROJECT_DIR$/ks-impl/project/project/target/" />
     <ignored path="$PROJECT_DIR$/ks-impl/project/target/" />
+    <ignored path="$PROJECT_DIR$/analytics-api/target/" />
+    <ignored path="$PROJECT_DIR$/analytics-impl/target/" />
+    <ignored path="$PROJECT_DIR$/analytics-api/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/analytics-api/project/target/" />
+    <ignored path="$PROJECT_DIR$/analytics-impl/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/analytics-impl/project/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,43 +111,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IngestionServiceImpl.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cc-ingestion-impl/src/main/scala/com/knoldus/cc/ingestion/impl/IngestionServiceImpl.scala">
+      <file leaf-file-name="KnolSpecialistService.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ks-api/src/main/scala/com/knoldus/cc/ks/api/KnolSpecialistService.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding>
-                <element signature="e#39#91#0" expanded="true" />
+                <element signature="e#31#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IngestionService.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cc-ingestion-api/src/main/scala/com/knoldus/cc/ingestion/api/IngestionService.scala">
+      <file leaf-file-name="application.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ks-impl/src/main/resources/application.conf">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="3" selection-start-line="8" selection-start-column="2" selection-end-line="15" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plugins.sbt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KnolSpecialistService.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ks-api/src/main/scala/com/knoldus/cc/ks/api/KnolSpecialistService.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <caret line="2" column="69" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -142,31 +137,19 @@
         <entry file="file://$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolSpecialistLoader.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="92" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="92" />
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
               <folding>
-                <element signature="e#32#76#0" expanded="true" />
+                <element signature="e#32#86#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IngestionLoader.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cc-ingestion-impl/src/main/scala/com/knoldus/cc/ingestion/impl/IngestionLoader.scala">
+      <file leaf-file-name="KnolspecialistEntity.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolspecialistEntity.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62222224">
-              <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-              <folding>
-                <element signature="e#39#91#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AhcWS.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-ws_2.11/srcs/play-ws_2.11-2.5.10-sources.jar!/play/api/libs/ws/ahc/AhcWS.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0">
-              <caret line="8" column="46" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -175,20 +158,37 @@
       <file leaf-file-name="LagomApplicationLoader.scala" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ivy2/cache/com.lightbend.lagom/lagom-scaladsl-server_2.11/srcs/lagom-scaladsl-server_2.11-1.3.4-sources.jar!/com/lightbend/lagom/scaladsl/server/LagomApplicationLoader.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0">
-              <caret line="266" column="58" selection-start-line="266" selection-start-column="52" selection-end-line="266" selection-end-column="58" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="186" column="19" selection-start-line="186" selection-start-column="15" selection-end-line="186" selection-end-column="19" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="e#122#141#0" expanded="false" />
+                <element signature="e#4842#4882#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KnolSpecialistImpl.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolSpecialistImpl.scala">
+      <file leaf-file-name="CassandraPersistenceComponents.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.lightbend.lagom/lagom-scaladsl-persistence-cassandra_2.11/srcs/lagom-scaladsl-persistence-cassandra_2.11-1.3.4-sources.jar!/com/lightbend/lagom/scaladsl/persistence/cassandra/CassandraPersistenceComponents.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
               <folding>
-                <element signature="e#31#81#0" expanded="true" />
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="e#137#167#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KnolSpecialistImpl.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolSpecialistImpl.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3743922">
+              <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+              <folding>
+                <element signature="e#32#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -198,7 +198,27 @@
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LagomScala.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/scala_2.10/sbt_0.13/com.lightbend.lagom/lagom-sbt-plugin/jars/lagom-sbt-plugin-1.3.4.jar!/com/lightbend/lagom/sbt/LagomScala.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LagomImport.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/scala_2.10/sbt_0.13/com.lightbend.lagom/lagom-sbt-plugin/jars/lagom-sbt-plugin-1.3.4.jar!/com/lightbend/lagom/sbt/LagomImport.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -229,11 +249,15 @@
         <option value="$PROJECT_DIR$/cc-ingestion-impl/src/main/scala/com/knoldus/cc/ingestion/impl/IngestionImpl.scala" />
         <option value="$PROJECT_DIR$/cc-ingestion-impl/src/main/scala/com/knoldus/cc/ingestion/impl/IngestionServiceImpl.scala" />
         <option value="$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KSImpl.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolSpecialistImpl.scala" />
-        <option value="$PROJECT_DIR$/ks-api/src/main/scala/com/knoldus/cc/ks/api/KnolSpecialistService.scala" />
-        <option value="$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolSpecialistLoader.scala" />
         <option value="$PROJECT_DIR$/cc-ingestion-impl/src/main/scala/com/knoldus/cc/ingestion/impl/IngestionLoader.scala" />
+        <option value="$PROJECT_DIR$/analytics-impl/src/main/scala/com/knoldus/cc/analytics/impl/AnalyticsImpl.scala" />
+        <option value="$PROJECT_DIR$/analytics-impl/src/main/scala/com/knoldus/cc/analytics/impl/AnalyticsLoader.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/ks-api/src/main/scala/com/knoldus/cc/ks/api/KnolSpecialistService.scala" />
+        <option value="$PROJECT_DIR$/ks-impl/src/main/resources/application.conf" />
+        <option value="$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolSpecialistLoader.scala" />
+        <option value="$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolspecialistEntity.scala" />
+        <option value="$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolSpecialistImpl.scala" />
       </list>
     </option>
   </component>
@@ -276,8 +300,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -306,69 +328,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cc-KnolSpecialist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cc-KnolSpecialist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config-classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cc-KnolSpecialist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cc-KnolSpecialist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="ks-impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cc-KnolSpecialist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cc-KnolSpecialist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ks-impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -412,65 +372,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ks-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cc-KnolSpecialist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cc-KnolSpecialist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ks-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cc-KnolSpecialist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cc-KnolSpecialist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cc-ingestion-impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cc-KnolSpecialist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cc-KnolSpecialist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cc-ingestion-impl" />
+              <option name="myItemId" value="ks-impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -489,19 +391,9 @@
               <option name="myItemId" value="impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cc-KnolSpecialist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cc-KnolSpecialist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cc-ingestion-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="KnolspecialistEntity.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -514,7 +406,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cc-ingestion-api" />
+              <option name="myItemId" value="ks-impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cc-KnolSpecialist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cc-KnolSpecialist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ks-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cc-KnolSpecialist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cc-KnolSpecialist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ks-api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -536,10 +468,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../knol-specialist" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -903,7 +837,7 @@
     </configuration>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1498044461893" />
+    <option name="lastUpdateTimestamp" value="1498623788348" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -920,14 +854,6 @@
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="cc-ingestion-api" />
-                <option name="path" value="$PROJECT_DIR$/cc-ingestion-api" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value="cc-ingestion-impl" />
-                <option name="path" value="$PROJECT_DIR$/cc-ingestion-impl" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
                 <option name="name" value="ks-api" />
                 <option name="path" value="$PROJECT_DIR$/ks-api" />
               </ExternalProjectPojo>
@@ -938,14 +864,6 @@
               <ExternalProjectPojo>
                 <option name="name" value="knol-specialist-build" />
                 <option name="path" value="$PROJECT_DIR$/project" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value="cc-ingestion-api-build" />
-                <option name="path" value="$PROJECT_DIR$/cc-ingestion-api/project" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value="cc-ingestion-impl-build" />
-                <option name="path" value="$PROJECT_DIR$/cc-ingestion-impl/project" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="ks-api-build" />
@@ -963,7 +881,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="$PROJECT_DIR$/../../../akka/akka-kip" value="1489663492819" />
-        <entry key="$PROJECT_DIR$" value="1498044407515" />
+        <entry key="$PROJECT_DIR$" value="1498623743905" />
         <entry key="$USER_HOME$/play-scala" value="1488350149505" />
         <entry key="$USER_HOME$/workspace2/nitin/Ajax-Assignment" value="1489190911092" />
         <entry key="$USER_HOME$/workspace2/nitin/play-Assignment-1-Nitin-Aggarwal" value="1489058674153" />
@@ -982,6 +900,9 @@
     </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2821928e-08bb-450a-8dc8-f0a29dc7afdc" name="Default" comment="" />
@@ -1002,7 +923,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32766616" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34157652" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26533866" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1022,6 +943,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="MaxCompute Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1034,6 +956,14 @@
       <window_info id="Running Result" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -1042,21 +972,188 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cc-ingestion-impl/src/main/scala/com/knoldus/cc/ingestion/impl/IngestionServiceImpl.scala">
+    <entry file="file://$PROJECT_DIR$/ks-api/src/main/scala/com/knoldus/cc/ks/api/KnolSpecialistService.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="37" />
           <folding>
-            <element signature="e#39#91#0" expanded="true" />
+            <element signature="e#31#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cc-ingestion-api/src/main/scala/com/knoldus/cc/ingestion/api/IngestionService.scala">
+    <entry file="file://$PROJECT_DIR$/ks-impl/src/main/resources/application.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="59" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="59" />
+          <caret line="2" column="69" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolSpecialistLoader.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#32#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolspecialistEntity.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.lightbend.lagom/lagom-scaladsl-server_2.11/srcs/lagom-scaladsl-server_2.11-1.3.4-sources.jar!/com/lightbend/lagom/scaladsl/server/LagomApplicationLoader.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="186" column="19" selection-start-line="186" selection-start-column="15" selection-end-line="186" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#122#141#0" expanded="false" />
+            <element signature="e#4842#4882#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.lightbend.lagom/lagom-scaladsl-persistence-cassandra_2.11/srcs/lagom-scaladsl-persistence-cassandra_2.11-1.3.4-sources.jar!/com/lightbend/lagom/scaladsl/persistence/cassandra/CassandraPersistenceComponents.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#137#167#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolSpecialistImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#32#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/scala_2.10/sbt_0.13/com.lightbend.lagom/lagom-sbt-plugin/jars/lagom-sbt-plugin-1.3.4.jar!/com/lightbend/lagom/sbt/LagomScala.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/scala_2.10/sbt_0.13/com.lightbend.lagom/lagom-sbt-plugin/jars/lagom-sbt-plugin-1.3.4.jar!/com/lightbend/lagom/sbt/LagomImport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ks-api/src/main/scala/com/knoldus/cc/ks/api/KnolSpecialistService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="e#31#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ks-impl/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolSpecialistLoader.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+          <folding>
+            <element signature="e#32#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolSpecialistImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#32#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/scala_2.10/sbt_0.13/com.lightbend.lagom/lagom-sbt-plugin/jars/lagom-sbt-plugin-1.3.4.jar!/com/lightbend/lagom/sbt/LagomScala.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/scala_2.10/sbt_0.13/com.lightbend.lagom/lagom-sbt-plugin/jars/lagom-sbt-plugin-1.3.4.jar!/com/lightbend/lagom/sbt/LagomImport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ks-api/src/main/scala/com/knoldus/cc/ks/api/KnolSpecialistService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <element signature="e#31#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolSpecialistLoader.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#32#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolSpecialistImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#32#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1068,52 +1165,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cc-ingestion-impl/src/main/scala/com/knoldus/cc/ingestion/impl/IngestionServiceImpl.scala">
+    <entry file="file://$PROJECT_DIR$/ks-api/src/main/scala/com/knoldus/cc/ks/api/KnolSpecialistService.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding>
-            <element signature="e#39#91#0" expanded="true" />
+            <element signature="e#31#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cc-ingestion-api/src/main/scala/com/knoldus/cc/ingestion/api/IngestionService.scala">
+    <entry file="file://$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolSpecialistLoader.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#32#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolSpecialistImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#32#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cc-ingestion-api/src/main/scala/com/knoldus/cc/ingestion/api/IngestionService.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cc-ingestion-api/src/main/scala/com/knoldus/cc/ingestion/api/IngestionService.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="3" selection-start-line="8" selection-start-column="2" selection-end-line="15" selection-end-column="3" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1122,17 +1207,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cc-ingestion-impl/src/main/scala/com/knoldus/cc/ingestion/impl/IngestionServiceImpl.scala">
+    <entry file="file://$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolSpecialistLoader.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+          <caret line="12" column="92" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="92" />
           <folding>
-            <element signature="e#39#91#0" expanded="true" />
+            <element signature="e#32#86#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-ws_2.11/srcs/play-ws_2.11-2.5.10-sources.jar!/play/api/libs/ws/ahc/AhcWS.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.lightbend.lagom/lagom-scaladsl-server_2.11/srcs/lagom-scaladsl-server_2.11-1.3.4-sources.jar!/com/lightbend/lagom/scaladsl/server/LagomApplicationLoader.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="266" column="58" selection-start-line="266" selection-start-column="52" selection-end-line="266" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -1141,7 +1239,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#31#81#0" expanded="true" />
+            <element signature="e#32#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1154,26 +1252,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.lightbend.lagom/lagom-scaladsl-server_2.11/srcs/lagom-scaladsl-server_2.11-1.3.4-sources.jar!/com/lightbend/lagom/scaladsl/server/LagomApplicationLoader.scala">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0">
-          <caret line="266" column="58" selection-start-line="266" selection-start-column="52" selection-end-line="266" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-ws_2.11/srcs/play-ws_2.11-2.5.10-sources.jar!/play/api/libs/ws/ahc/AhcWS.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="8" column="46" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/scala_2.10/sbt_0.13/com.lightbend.lagom/lagom-sbt-plugin/jars/lagom-sbt-plugin-1.3.4.jar!/com/lightbend/lagom/sbt/LagomImport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ks-api/src/main/scala/com/knoldus/cc/ks/api/KnolSpecialistService.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/scala_2.10/sbt_0.13/com.lightbend.lagom/lagom-sbt-plugin/jars/lagom-sbt-plugin-1.3.4.jar!/com/lightbend/lagom/sbt/LagomScala.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.lightbend.lagom/lagom-scaladsl-persistence-cassandra_2.11/srcs/lagom-scaladsl-persistence-cassandra_2.11-1.3.4-sources.jar!/com/lightbend/lagom/scaladsl/persistence/cassandra/CassandraPersistenceComponents.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#137#167#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.lightbend.lagom/lagom-scaladsl-server_2.11/srcs/lagom-scaladsl-server_2.11-1.3.4-sources.jar!/com/lightbend/lagom/scaladsl/server/LagomApplicationLoader.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="186" column="19" selection-start-line="186" selection-start-column="15" selection-end-line="186" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#122#141#0" expanded="false" />
+            <element signature="e#4842#4882#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ks-impl/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="69" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolspecialistEntity.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1181,19 +1356,29 @@
     <entry file="file://$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolSpecialistLoader.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="92" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="92" />
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           <folding>
-            <element signature="e#32#76#0" expanded="true" />
+            <element signature="e#32#86#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cc-ingestion-impl/src/main/scala/com/knoldus/cc/ingestion/impl/IngestionLoader.scala">
+    <entry file="file://$PROJECT_DIR$/ks-api/src/main/scala/com/knoldus/cc/ks/api/KnolSpecialistService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62222224">
-          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding>
-            <element signature="e#39#91#0" expanded="true" />
+            <element signature="e#31#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ks-impl/src/main/scala/com/knoldus/cc/ks/impl/KnolSpecialistImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3743922">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+          <folding>
+            <element signature="e#32#51#0" expanded="true" />
           </folding>
         </state>
       </provider>

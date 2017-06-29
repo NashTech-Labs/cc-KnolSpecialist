@@ -1,16 +1,17 @@
 package com.knoldus.cc.ks.api
 
+import akka.NotUsed
 import com.lightbend.lagom.scaladsl.api.{Descriptor, Service, ServiceCall}
 
 trait KnolSpecialistService extends Service{
 
-  def getTechnique():ServiceCall[String,String]
+  def getTechnique():ServiceCall[NotUsed,String]
 
-  override def descriptor: Descriptor = {
+  override final def descriptor: Descriptor = {
     import Service._
-    named("ks")
+    named("ks-api")
       .withCalls(
-        pathCall("/api/get/technology?type", getTechnique())
+        pathCall("/api/get/technology", getTechnique _)
       )
       .withAutoAcl(true)
   }

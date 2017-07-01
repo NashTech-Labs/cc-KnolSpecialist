@@ -5,20 +5,14 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 var core_1 = require("@angular/core");
+var home_service_1 = require("./home.service");
 var HomeComponent = (function () {
-    function HomeComponent() {
-        this.arr = [
-            { id: 1, imgUrl: 'https://www.scala-lang.org/resources/img/smooth-spiral.png', title: 'Scala' },
-            { id: 2, imgUrl: 'https://d3an9kf42ylj3p.cloudfront.net/uploads/2015/06/spark-logo.png?x23053', title: 'spark' },
-            { id: 3, imgUrl: 'https://angular.io/assets/images/logos/angular/angular.png', title: 'Angular' },
-            { id: 4, imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRuLMuNbMmZjvu39H_8O-CgZmTDdO-0kYyFeSXizJR2jcR7BMP3AuLYURc', title: 'spark' },
-            { id: 5, imgUrl: 'https://www.seeklogo.net/wp-content/uploads/2011/06/java-logo-vector.png', title: 'Scala' },
-            { id: 6, imgUrl: 'https://d3an9kf42ylj3p.cloudfront.net/uploads/2015/06/spark-logo.png?x23053', title: 'spark' },
-            { id: 7, imgUrl: 'https://www.scala-lang.org/resources/img/smooth-spiral.png', title: 'Scala' },
-            { id: 8, imgUrl: 'https://d3an9kf42ylj3p.cloudfront.net/uploads/2015/06/spark-logo.png?x23053', title: 'spark' },
-            { id: 9, imgUrl: 'https://www.scala-lang.org/resources/img/smooth-spiral.png', title: 'Scala' }
-        ];
+    function HomeComponent(homeService) {
+        this.arr = homeService.techniques();
     }
     HomeComponent.prototype.ngAfterViewInit = function () {
         console.log("ng after");
@@ -38,9 +32,10 @@ var HomeComponent = (function () {
 HomeComponent = __decorate([
     core_1.Component({
         selector: 'knol-home',
-        templateUrl: './app/home/home.component.html',
-        styleUrls: ['./app/home/home.component.css']
-    })
+        templateUrl: '../app/home/home.component.html',
+        providers: [home_service_1.HomeService]
+    }),
+    __metadata("design:paramtypes", [home_service_1.HomeService])
 ], HomeComponent);
 exports.HomeComponent = HomeComponent;
 //# sourceMappingURL=home.component.js.map

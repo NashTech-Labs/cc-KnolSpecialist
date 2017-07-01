@@ -97,30 +97,33 @@
 }*/
 
 /*==list style for frameworks==*/
-#client{
+.client{
+    padding: 100px 0px;
     margin-left: 0px;
     margin-right: 0px;
     width:100%;
 }
-#client .headings, .our-work .headings {
+.client .headings, .our-work .headings {
     text-align: center;
     font-weight: bold;
     color: #3a3a3a !important;
     font-size: 36px !important;
     font-family: 'open_sansregular' !important;
     line-height: 40px !important;
-    background: url(../images/clients/separator.png) no-repeat bottom center !important;
     padding-bottom: 30px !important;
     margin-bottom: 35px !important;
     margin-top: 0 !important;
 }
-#client .client-logo {
+.client .client-logo {
     text-align: center;
-    height: 150px;
+    height: 180px;
     width: 20%;
     display: inline-block;
     line-height: 150px;
     margin-bottom: 30px;
+    background: #eef1f0;
+    border: 1px solid #ddd;
+    padding: 15px 10px
 }
 
 li.client-logo img {
@@ -128,11 +131,11 @@ li.client-logo img {
 }
 
 
-#client ul {
+.client ul {
     margin-left: 0px;
     padding-left: 0px;
 }
-#client ul li {
+.client ul li {
     display: block;
     float: left;
     height: 100px;
@@ -141,7 +144,7 @@ li.client-logo img {
     height:100%;
 }
 @media only screen and (max-width: 649px){
-    #client .client-logo {
+    .client .client-logo {
         text-align: center;
         height: 100px;
         width: 50%;
@@ -153,7 +156,7 @@ li.client-logo img {
         max-height: 100px;
     }
 
-    #client ul li {
+    .client ul li {
         display: block;
         float: left;
         height: 100px;
@@ -162,7 +165,7 @@ li.client-logo img {
     }
 }
 @media only screen and (min-width: 650px) and (max-width: 900px){
-    #client .client-logo {
+    .client .client-logo {
         text-align: center;
         height: 150px;
         width: 25%;
@@ -170,7 +173,7 @@ li.client-logo img {
         line-height: 150px;
         margin-bottom: 40px;
     }
-    #client ul li {
+    .client ul li {
         display: block;
         float: left;
         height: 100px;

@@ -14,7 +14,7 @@ var AppComponent = (function () {
 AppComponent = __decorate([
     core_1.Component({
         selector: 'my-app',
-        template: "<knol-home></knol-home>"
+        template: "<knol-header></knol-header><knol-home></knol-home>"
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;

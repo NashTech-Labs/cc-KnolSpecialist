@@ -8,8 +8,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
 var app_component_1 = require("./app.component");
-var header_component_1 = require("./shared/header/header.component");
-var home_component_1 = require("./home/home.component");
+var shared_module_1 = require("./shared/shared.module");
+var home_module_1 = require("./home/home.module");
+/*import {HomeComponent} from "./home/home.component";*/
 var AppModule = (function () {
     function AppModule() {
     }
@@ -17,8 +18,8 @@ var AppModule = (function () {
 }());
 AppModule = __decorate([
     core_1.NgModule({
-        imports: [platform_browser_1.BrowserModule],
-        declarations: [app_component_1.AppComponent, header_component_1.HeaderComponent, home_component_1.HomeComponent],
+        imports: [platform_browser_1.BrowserModule, home_module_1.HomeModule, shared_module_1.SharedModule],
+        declarations: [app_component_1.AppComponent],
         bootstrap: [app_component_1.AppComponent]
     })
 ], AppModule);

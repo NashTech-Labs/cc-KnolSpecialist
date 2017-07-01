@@ -4,8 +4,6 @@
       <root url="jar://$USER_HOME$/.ivy2/cache/io.aeron/aeron-driver/jars/aeron-driver-1.1.0.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.ivy2/cache/io.aeron/aeron-driver/srcs/aeron-driver-1.1.0-sources.jar!/" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>

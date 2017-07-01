@@ -4,8 +4,6 @@
       <root url="jar://$USER_HOME$/.ivy2/cache/org.fusesource/sigar/jars/sigar-1.6.4.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.ivy2/cache/org.fusesource/sigar/srcs/sigar-1.6.4-sources.jar!/" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>

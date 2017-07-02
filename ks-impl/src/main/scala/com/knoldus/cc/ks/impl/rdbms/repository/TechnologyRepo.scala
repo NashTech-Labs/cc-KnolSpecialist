@@ -1,7 +1,7 @@
 package com.knoldus.cc.ks.impl.rdbms.repository
 
+import com.knoldus.cc.ks.Technology
 import com.knoldus.cc.ks.impl.rdbms.mapping.TechnologyMapping
-import com.knoldus.cc.ks.impl.rdbms.model.Technology
 import com.knoldus.cc.ks.impl.rdbms.settings.TransactionalRepo
 import com.knoldus.cc.ks.impl.rdbms.settings.driver.{DriverComponent, PGDriver}
 import com.knoldus.cc.ks.impl.rdbms.settings.pool.BIDBComponent

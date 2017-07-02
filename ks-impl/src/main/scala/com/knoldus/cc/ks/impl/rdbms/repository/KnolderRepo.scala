@@ -1,7 +1,7 @@
 package com.knoldus.cc.ks.impl.rdbms.repository
 
-import com.knoldus.cc.ks.impl.rdbms.mapping.{KnolderMapping, TechnologyMapping}
-import com.knoldus.cc.ks.impl.rdbms.model.{Knolder, Technology}
+import com.knoldus.cc.ks.Knolder
+import com.knoldus.cc.ks.impl.rdbms.mapping.KnolderMapping
 import com.knoldus.cc.ks.impl.rdbms.settings.TransactionalRepo
 import com.knoldus.cc.ks.impl.rdbms.settings.driver.{DriverComponent, PGDriver}
 import com.knoldus.cc.ks.impl.rdbms.settings.pool.BIDBComponent
@@ -33,7 +33,6 @@ trait KnolderRepo extends KnolderMapping with TransactionalRepo{
     def getAll: Future[List[Knolder]] = withTransaction{
     knolderInfo.to[List].result
   }
-
 }
 
 object KnolderRepoImpl extends KnolderRepo with PGDriver with BIDBComponent

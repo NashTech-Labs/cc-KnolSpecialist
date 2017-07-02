@@ -1,6 +1,6 @@
 package com.knoldus.cc.ks.impl.rdbms.mapping
 
-import com.knoldus.cc.ks.impl.rdbms.model.Technology
+import com.knoldus.cc.ks.Technology
 import com.knoldus.cc.ks.impl.rdbms.settings.driver.DriverComponent
 import slick.lifted.ProvenShape
 
@@ -20,4 +20,5 @@ trait TechnologyMapping {
   val technologyInfo: TableQuery[TechnologyMapping] = TableQuery[TechnologyMapping]
 
   protected def technologyAutoInc = technologyInfo returning technologyInfo.map(_.id)
+
 }

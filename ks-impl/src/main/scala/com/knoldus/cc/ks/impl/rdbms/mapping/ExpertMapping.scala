@@ -1,6 +1,6 @@
 package com.knoldus.cc.ks.impl.rdbms.mapping
 
-import com.knoldus.cc.ks.impl.rdbms.model.Expert
+import com.knoldus.cc.ks.Expert
 import com.knoldus.cc.ks.impl.rdbms.settings.driver.DriverComponent
 import slick.lifted.ProvenShape
 

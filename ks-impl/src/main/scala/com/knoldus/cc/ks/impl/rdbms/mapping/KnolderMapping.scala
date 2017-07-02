@@ -1,6 +1,6 @@
 package com.knoldus.cc.ks.impl.rdbms.mapping
 
-import com.knoldus.cc.ks.impl.rdbms.model.Knolder
+import com.knoldus.cc.ks.Knolder
 import com.knoldus.cc.ks.impl.rdbms.settings.driver.DriverComponent
 import slick.lifted.ProvenShape
 
@@ -21,4 +21,5 @@ trait KnolderMapping {
   val knolderInfo: TableQuery[KnolderMapping] = TableQuery[KnolderMapping]
 
   protected def knolderAutoInc: driver.ReturningInsertActionComposer[Knolder, Int] = knolderInfo returning knolderInfo.map(_.id)
+
 }

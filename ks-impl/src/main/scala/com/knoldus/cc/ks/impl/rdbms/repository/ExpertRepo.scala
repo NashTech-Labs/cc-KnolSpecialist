@@ -1,7 +1,7 @@
 package com.knoldus.cc.ks.impl.rdbms.repository
 
+import com.knoldus.cc.ks.Expert
 import com.knoldus.cc.ks.impl.rdbms.mapping.ExpertMapping
-import com.knoldus.cc.ks.impl.rdbms.model.Expert
 import com.knoldus.cc.ks.impl.rdbms.settings.TransactionalRepo
 import com.knoldus.cc.ks.impl.rdbms.settings.driver.{DriverComponent, PGDriver}
 import com.knoldus.cc.ks.impl.rdbms.settings.pool.BIDBComponent
@@ -33,7 +33,6 @@ trait ExpertRepo extends ExpertMapping with TransactionalRepo{
   def getAll: Future[List[Expert]] = withTransaction{
     expertInfo.to[List].result
   }
-
 }
 
 object ExpertRepoImpl extends ExpertRepo with PGDriver with BIDBComponent

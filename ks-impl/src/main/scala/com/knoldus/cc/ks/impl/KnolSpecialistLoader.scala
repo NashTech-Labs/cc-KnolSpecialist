@@ -9,12 +9,7 @@ import play.api.libs.ws.ahc.AhcWSComponents
 import com.knoldus.cc.ks.api.KnolSpecialistService
 import com.softwaremill.macwire._
 
-/**
-  * Created by knoldus on 21/6/17.
-  */
-
 class KnolspecialistLoader extends LagomApplicationLoader {
-
   override def load(context: LagomApplicationContext): LagomApplication =
     new KnolspecialistApplication(context) {
       override def serviceLocator: ServiceLocator = NoServiceLocator
@@ -29,12 +24,10 @@ class KnolspecialistLoader extends LagomApplicationLoader {
 
 
 abstract class KnolspecialistApplication(context: LagomApplicationContext)
-  extends LagomApplication(context)
-    with CassandraPersistenceComponents
-    with AhcWSComponents {
+  extends LagomApplication(context) with CassandraPersistenceComponents with AhcWSComponents {
 
-  // Bind the service that this server provides
   override lazy val lagomServer = serverFor[KnolSpecialistService](wire[KnolSpecialistImpl])
-  override lazy val jsonSerializerRegistry = KnolspecialistSerializerRegistry
 
+  override lazy val jsonSerializerRegistry = KnolspecialistSerializerRegistry
 }
+// Bind the service that this server provides

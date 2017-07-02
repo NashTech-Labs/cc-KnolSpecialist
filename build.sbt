@@ -50,7 +50,9 @@ lazy val `ks-impl` = (project in file("ks-impl"))
       lagomScaladslKafkaBroker,
       lagomScaladslTestKit,
       macwire,
-      scalaTest
+      scalaTest,
+      "org.postgresql" % "postgresql" % "9.4.1208.jre7",
+      "com.github.dnvriend" %% "akka-persistence-jdbc" % "2.5.2.0"
     )
   )
   .settings(lagomForkedTestSettings: _*)

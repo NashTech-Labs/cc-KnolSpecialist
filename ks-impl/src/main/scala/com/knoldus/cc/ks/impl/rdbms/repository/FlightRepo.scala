@@ -1,3 +1,4 @@
+/*
 package com.knoldus.cc.ks.impl.rdbms.repository
 
 import com.freebird.rdbms.mapping.FlightMapping
@@ -81,3 +82,4 @@ object FlightRepoImpl extends FlightRepo with PGDriver with BIDBComponent
 object FlightRepoFactory {
   def apply() = new FlightRepo with PGDriver with BIDBComponent{}
 }
+*/

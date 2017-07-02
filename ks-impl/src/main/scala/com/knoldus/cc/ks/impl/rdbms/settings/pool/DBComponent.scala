@@ -1,6 +1,6 @@
 package com.knoldus.cc.ks.impl.rdbms.settings.pool
 
-import com.freebird.rdbms.settings.driver.DriverComponent
+import com.knoldus.cc.ks.impl.rdbms.settings.driver.DriverComponent
 
 /**
  * Creating database component

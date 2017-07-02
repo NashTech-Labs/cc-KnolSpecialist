@@ -1,3 +1,4 @@
+/*
 package com.knoldus.cc.ks.impl.rdbms.model
 
 
@@ -22,3 +23,4 @@ case class RDPerson(
                     ){
   def getPerson: Person = Person(None, firstName, lastName, middleName, dateOfBirth, phone, email)
 }
+*/

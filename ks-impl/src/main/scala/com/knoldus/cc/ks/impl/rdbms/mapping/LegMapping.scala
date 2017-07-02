@@ -1,3 +1,4 @@
+/*
 package com.knoldus.cc.ks.impl.rdbms.mapping
 
 trait LegMapping {
@@ -32,3 +33,4 @@ trait LegMapping {
   }
 
 }
+*/

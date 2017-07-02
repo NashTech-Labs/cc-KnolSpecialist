@@ -1,6 +1,9 @@
+/*
 package com.knoldus.cc.ks.impl.rdbms.mapping
 
 import java.sql.Timestamp
+
+import com.knoldus.cc.ks.impl.rdbms.settings.driver.DriverComponent
 
 
 trait FlightMapping {
@@ -41,3 +44,4 @@ trait FlightMapping {
   }
 
 }
+*/

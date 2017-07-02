@@ -1,7 +1,7 @@
 package com.knoldus.cc.ks.impl.rdbms.settings
 
-import com.freebird.rdbms.settings.driver.{DriverComponent, PGDriver}
-import com.freebird.rdbms.settings.pool.{BIDBComponent, DBComponent}
+import com.knoldus.cc.ks.impl.rdbms.settings.driver.{DriverComponent, PGDriver}
+import com.knoldus.cc.ks.impl.rdbms.settings.pool.{BIDBComponent, DBComponent}
 import slick.dbio
 import slick.dbio.Effect.Transactional
 

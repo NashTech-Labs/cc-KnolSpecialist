@@ -8,9 +8,11 @@
       <sourceFolder url="file://$MODULE_DIR$/../../ks-impl/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../ks-impl/src/main/scala" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../ks-impl/src/main/scala-2.11" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../ks-impl/target/scala-2.11/src_managed/main" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../ks-impl/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../ks-impl/src/test/scala" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../ks-impl/src/test/scala-2.11" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../ks-impl/target/scala-2.11/src_managed/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../ks-impl/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../ks-impl/target/scala-2.11/resource_managed/main" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../ks-impl/src/test/resources" type="java-test-resource" />

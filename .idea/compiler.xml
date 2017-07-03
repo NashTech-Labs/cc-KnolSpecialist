@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <resourceExtensions />
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true">
-        <processorPath useClasspath="true" />
-      </profile>
+      <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="analytics-impl" target="1.8" />
       <module name="cc-ingestion-impl" target="1.8" />
       <module name="knol-specialist-impl" target="1.8" />
       <module name="knol-specialist-stream-impl" target="1.8" />

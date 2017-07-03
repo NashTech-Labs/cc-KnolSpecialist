@@ -1,3 +1,5 @@
+import sbt.Keys.libraryDependencies
+
 organization in ThisBuild := "com.knoldus.cc"
 version in ThisBuild := "1.0-SNAPSHOT"
 
@@ -36,7 +38,8 @@ lazy val `cc-ingestion-impl` = (project in file("cc-ingestion-impl"))
       lagomScaladslKafkaBroker,
       lagomScaladslTestKit,
       macwire,
-      scalaTest
+      scalaTest,
+      "com.github.gilbertw1" %% "slack-scala-client" % "0.2.1"
     )
   )
   .settings(lagomForkedTestSettings: _*)
@@ -68,3 +71,4 @@ lazy val `analytics-impl` = (project in file("analytics-impl"))
   )
   .settings(lagomForkedTestSettings: _*)
   .dependsOn(`analytics-api`)
+

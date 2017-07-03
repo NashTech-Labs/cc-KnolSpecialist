@@ -4,6 +4,8 @@
       <root url="jar://$USER_HOME$/.ivy2/cache/com.github.jnr/jnr-posix/jars/jnr-posix-3.0.27.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.github.jnr/jnr-posix/srcs/jnr-posix-3.0.27-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

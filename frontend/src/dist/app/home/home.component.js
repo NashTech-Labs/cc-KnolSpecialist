@@ -31,8 +31,9 @@ var HomeComponent = (function () {
 }());
 HomeComponent = __decorate([
     core_1.Component({
+        moduleId: module.id,
         selector: 'knol-home',
-        templateUrl: '../app/home/home.component.html',
+        templateUrl: 'home.component.html',
         providers: [home_service_1.HomeService]
     }),
     __metadata("design:paramtypes", [home_service_1.HomeService])

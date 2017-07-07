@@ -13,8 +13,9 @@ var AppComponent = (function () {
 }());
 AppComponent = __decorate([
     core_1.Component({
+        moduleId: module.id,
         selector: 'my-app',
-        template: "<knol-header></knol-header><knol-home></knol-home>"
+        template: "<knol-header></knol-header><router-outlet></router-outlet>"
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;

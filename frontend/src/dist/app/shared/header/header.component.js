@@ -13,9 +13,10 @@ var HeaderComponent = (function () {
 }());
 HeaderComponent = __decorate([
     core_1.Component({
+        moduleId: module.id,
         selector: 'knol-header',
-        templateUrl: './app/shared/header/header.component.html',
-        styleUrls: ['./app/shared/header/header.component.css']
+        templateUrl: 'header.component.html',
+        styleUrls: ['header.component.css']
     })
 ], HeaderComponent);
 exports.HeaderComponent = HeaderComponent;

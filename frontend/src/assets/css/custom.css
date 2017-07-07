@@ -127,9 +127,9 @@
 }
 
 li.client-logo img {
-    max-height: 150px;
+    max-height: 120px;
+    max-width: 160px
 }
-
 
 .client ul {
     margin-left: 0px;
@@ -183,4 +183,7 @@ li.client-logo img {
 }
 .panel-primary a{
 
+}
+#total-experts{
+    padding-bottom:0px;
 }

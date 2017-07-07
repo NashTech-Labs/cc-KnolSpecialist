@@ -9,6 +9,7 @@ var core_1 = require("@angular/core");
 var home_component_1 = require("./home.component");
 var common_1 = require("@angular/common");
 var home_service_1 = require("./home.service");
+var home_routes_1 = require("./home.routes");
 var HomeModule = (function () {
     function HomeModule() {
     }
@@ -16,7 +17,7 @@ var HomeModule = (function () {
 }());
 HomeModule = __decorate([
     core_1.NgModule({
-        imports: [common_1.CommonModule],
+        imports: [common_1.CommonModule, home_routes_1.homeRouting],
         declarations: [home_component_1.HomeComponent],
         providers: [home_service_1.HomeService],
         exports: [home_component_1.HomeComponent]

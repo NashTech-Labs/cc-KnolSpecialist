@@ -1,3 +1,4 @@
+
 {
   "compilerOptions": {
     "target": "es5",
@@ -10,5 +11,9 @@
     "noImplicitAny": true,
     "suppressImplicitAnyIndexErrors": true,
     "outDir" : "./dist"
-  }
+  },
+  "exclude":[
+    "./main-aot.ts",
+    "../node_modules"
+  ]
 }

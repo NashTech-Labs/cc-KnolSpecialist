@@ -3,8 +3,9 @@ import { AbstractControl } from '@angular/forms'
 import {HomeService} from "./home.service";
 
 @Component({
+  moduleId: module.id,
   selector: 'knol-home',
-  templateUrl: '../app/home/home.component.html',
+  templateUrl: 'home.component.html',
   providers:[HomeService]
 })
 export class HomeComponent implements AfterViewInit{

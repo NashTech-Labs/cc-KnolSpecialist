@@ -19,7 +19,14 @@
                      <th>Name</th>
                      <th>Grade in %</th>
                      </thead>
-                     <tbody>
+                     <tbody *ngFor="let i of expertsArray">
+                     <tr>
+                         <td>{{i.id}}</td>
+                         <td>{{i.name}}</td>
+                         <td>{{i.percentage}}%</td>
+                     </tr>
+                     </tbody>
+                     <!--<tbody>
                      <tr>
                          <td>1</td>
                          <td>Pranjut</td>
@@ -35,7 +42,7 @@
                          <td>Ashu</td>
                          <td>90%</td>
                      </tr>
-                     </tbody>
+                     </tbody>-->
                  </table>
             </div>
         </div>

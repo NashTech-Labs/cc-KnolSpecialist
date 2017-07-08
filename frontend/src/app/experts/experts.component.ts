@@ -4,7 +4,8 @@ import {ExpertsService} from "./experts.service";
 @Component({
   moduleId: module.id,
   selector: 'experts',
-  templateUrl : 'experts.component.html'
+  templateUrl : 'experts.component.html',
+  providers:[ExpertsService]
 })
 export class ExpertsComponent{
   expertsArray:any[];

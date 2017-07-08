@@ -20,7 +20,8 @@ ExpertsComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
         selector: 'experts',
-        templateUrl: 'experts.component.html'
+        templateUrl: 'experts.component.html',
+        providers: [experts_service_1.ExpertsService]
     }),
     __metadata("design:paramtypes", [experts_service_1.ExpertsService])
 ], ExpertsComponent);

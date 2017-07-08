@@ -646,11 +646,12 @@ section.spacer blockquote cite {
 	filter: alpha(opacity=100);
 }
 .portfolio-overlay .thumb-info i {
-	top: 50%;
+	top: 56%;
 }
 .portfolio-overlay .thumb-info h5 {
 	top: 20%;
-	font-size: 18px;
+	font-size: 30px;
+	text-transform: capitalize;
 }
 .portfolio-overlay .thumb-info p {
 	top: 50%;

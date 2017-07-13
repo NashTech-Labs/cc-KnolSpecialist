@@ -11,7 +11,7 @@ trait ExpertMapping{
   import driver.api._
 
   private[rdbms] class ExpertMapping(tag: Tag) extends Table[Expert](tag, "expert") {
-    val techId: Rep[Int] = column[Int]("t_id")
+    val techId: Rep[Int] = column[Int]("id", O.PrimaryKey)
     val knolId: Rep[Int] = column[Int]("k_id")
     val skill: Rep[Int] = column[Int]("skill_level")
     def pk = primaryKey("pk_expert", (techId, knolId))

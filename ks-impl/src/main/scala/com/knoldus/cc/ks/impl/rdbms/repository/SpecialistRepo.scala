@@ -16,7 +16,7 @@ trait SpecialistRepo extends SpecialistMapping with TransactionalRepo{
   import driver.api._
 
   def getByTechnologyId(technologyId: Int): Future[List[Specialist]] = withTransaction{
-    expertInfo.filter(spel => spel.technologyId === technologyId).to[List].result
+    specialistInfo.filter(spel => spel.technologyId === technologyId).to[List].result
   }
 
   def getAll: Future[List[Specialist]] = withTransaction{

@@ -12,9 +12,9 @@ trait TechnologyMapping {
 
   private[rdbms] class TechnologyMapping(tag: Tag) extends Table[Technology](tag, "technology") {
 
-    val id: Rep[Int] = column[Int]("t_id", O.PrimaryKey)
+    val id: Rep[Int] = column[Int]("id", O.PrimaryKey)
 
-    val name: Rep[String] = column[String]("t_name")
+    val name: Rep[String] = column[String]("name")
 
     val url: Rep[String] = column[String]("url")
 

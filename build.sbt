@@ -1,84 +1,104 @@
 organization in ThisBuild := "com.knoldus.cc"
 version in ThisBuild := "1.0-SNAPSHOT"
+lagomCassandraEnabled in ThisBuild := false
+lagomCassandraPort in ThisBuild := 9042
 
 // the Scala version that will be used for cross-compiled libraries
 scalaVersion in ThisBuild := "2.11.8"
 
 val macwire = "com.softwaremill.macwire" %% "macros" % "2.2.5" % "provided"
-val scalaTest = "org.scalatest" %% "scalatest" % "3.0.1" % Test
+val scalaTest = "org.scalatest" %% "scalatest" % "3.0.1"
 
-lazy val `knol-specialist` = (project in file("."))
-  .aggregate(`cc-ingestion-api`, `cc-ingestion-impl`, `ks-api`, `ks-impl`, `analytics-api`, `analytics-impl`, domains)
+val knolspecialist = (project in file("."))
+  .aggregate(ccingestionapi, ccingestionimpl, ksapi, ksimpl, analyticsapi, analyticsimpl)
 
-lazy val `cc-ingestion-api` = (project in file("cc-ingestion-api"))
+lazy val ccingestionapi = (project in file("cc-ingestion-api"))
+  .enablePlugins(LagomScala)
+  .settings(lagomForkedTestSettings: _*)
   .settings(
     libraryDependencies ++= Seq(
-      lagomScaladslApi
+      lagomScaladslApi,
+      lagomScaladslTestKit,
+      scalaTest % Test
     )
   )
 
-lazy val `ks-api` = (project in file("ks-api"))
+lazy val ksapi = (project in file("ks-api"))
+  .enablePlugins(LagomScala)
+  .settings(lagomForkedTestSettings: _*)
   .settings(
     libraryDependencies ++= Seq(
-      lagomScaladslApi
+      lagomScaladslApi,
+      lagomScaladslTestKit,
+      scalaTest % Test
     )
   ).dependsOn(domains)
 
-lazy val `analytics-api` = (project in file("analytics-api"))
+lazy val analyticsapi = (project in file("analytics-api"))
+  .enablePlugins(LagomScala)
+  .settings(lagomForkedTestSettings: _*)
   .settings(
     libraryDependencies ++= Seq(
-      lagomScaladslApi
+      lagomScaladslApi,
+      lagomScaladslTestKit,
+      scalaTest % Test
     )
   )
 
-lazy val `cc-ingestion-impl` = (project in file("cc-ingestion-impl"))
+lazy val ccingestionimpl = (project in file("cc-ingestion-impl"))
   .enablePlugins(LagomScala)
+  .settings(lagomForkedTestSettings: _*)
   .settings(
     libraryDependencies ++= Seq(
       lagomScaladslPersistenceCassandra,
       lagomScaladslKafkaBroker,
       lagomScaladslTestKit,
       macwire,
-      scalaTest
+      scalaTest % Test
     )
   )
   .settings(lagomForkedTestSettings: _*)
-  .dependsOn(`cc-ingestion-api`)
+  .dependsOn(ccingestionapi)
 
-lazy val `ks-impl` = (project in file("ks-impl"))
+lazy val ksimpl = (project in file("ks-impl"))
   .enablePlugins(LagomScala)
+  .settings(lagomForkedTestSettings: _*)
   .settings(
     libraryDependencies ++= Seq(
       lagomScaladslPersistenceCassandra,
       lagomScaladslKafkaBroker,
       lagomScaladslTestKit,
       macwire,
-      scalaTest,
+      scalaTest % Test,
       "org.postgresql" % "postgresql" % "9.4.1208.jre7",
       "com.github.dnvriend" %% "akka-persistence-jdbc" % "2.5.2.0"
     )
   )
   .settings(lagomForkedTestSettings: _*)
-  .dependsOn(`ks-api`, domains)
+  .dependsOn(ksapi, domains)
 
-lazy val `analytics-impl` = (project in file("analytics-impl"))
+lazy val analyticsimpl = (project in file("analytics-impl"))
   .enablePlugins(LagomScala)
+  .settings(lagomForkedTestSettings: _*)
   .settings(
     libraryDependencies ++= Seq(
       lagomScaladslPersistenceCassandra,
       lagomScaladslKafkaBroker,
       lagomScaladslTestKit,
       macwire,
-      scalaTest
+      scalaTest % Test
     )
   )
   .settings(lagomForkedTestSettings: _*)
-  .dependsOn(`analytics-api`)
+  .dependsOn(analyticsapi)
 
 lazy val domains = (project in file("domains"))
   .enablePlugins(LagomScala)
+  .settings(lagomForkedTestSettings: _*)
   .settings(
     libraryDependencies ++= Seq(
-      scalaTest
+      lagomScaladslTestKit,
+      scalaTest % Test
     )
   ).settings(lagomForkedTestSettings: _*)
+

@@ -6,11 +6,12 @@ import { SharedModule }  from './shared/shared.module';
 import {HomeModule} from './home/home.module';
 import {ExpertsModule} from './experts/experts.module';
 import {routing} from "./app.routes";
+import { HttpModule} from '@angular/http';
 /*import {HomeComponent} from "./home/home.component";*/
 
 
 @NgModule({
-  imports:      [ BrowserModule, routing, HomeModule, RouterModule, ExpertsModule, SharedModule ],
+  imports:      [ BrowserModule, routing, HomeModule, RouterModule, ExpertsModule, SharedModule, HttpModule ],
   declarations: [ AppComponent],
   bootstrap:    [ AppComponent ]
 })

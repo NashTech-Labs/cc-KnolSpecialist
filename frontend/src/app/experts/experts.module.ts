@@ -5,9 +5,9 @@ import {expertsRouting} from "./experts.routes";
 
 @NgModule({
   imports: [CommonModule, expertsRouting],
-  declarations : [ExpertsComponent]
+  declarations: [ExpertsComponent]
 })
 
-export class ExpertsModule{
+export class ExpertsModule {
 
 }

@@ -1,3 +1,7 @@
+import {Injectable, Inject} from '@angular/core';
+import {Observable} from 'rxjs/Observable';
+import {Http} from '@angular/http';
+
 export class HomeService{
   techniques():any[] {
     return [

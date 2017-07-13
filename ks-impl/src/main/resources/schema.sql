@@ -1,3 +1,6 @@
+drop table technology;
+drop table specialist;
+
 CREATE TABLE IF NOT EXISTS technology (
   id int PRIMARY KEY,
   name VARCHAR(12),
